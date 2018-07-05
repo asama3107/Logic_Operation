@@ -8,5 +8,10 @@ public class Main {
         ifElse.ifElseOperation( "Rosemari" , 40);
         ifElse.ifElseOperation( "SomeOne" , 30);
         ifElse.ifElseOperation( null, -30);
+
+
+        SwitchCaseOperation switchCase = new SwitchCaseOperation();
+        switchCase.ageResult(20);
+        switchCase.ageResult(50);
     }
 }
